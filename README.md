@@ -20,9 +20,9 @@ In the initial data preparation phase, we performed the following tasks:
 ### Exploratory Data Analysis (EDA)
 EDA involved exploring the orders data to answer several key questions such as:
 1. What does the order status distribution look like?
-2. What is the average delivery time?
-3. What is the quantiles of delivery times?
-4. The monthly order volume trend
-5. What is the percentage of orders delivered early, on-time, or late?
+2. What is the percentage of orders delivered early, on-time, or late?
+3. What is the average delivery time?
+4. What are the quantiles of delivery times?
+5. The monthly order volume trend 
 6. What is the cancellation rate?
 7. What is the repeat purchase rate?
