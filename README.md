@@ -1,6 +1,9 @@
 # E-Commerce Performance Analysis
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning/ Preparation](#data-cleaning-preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 
 ### Project Overview
