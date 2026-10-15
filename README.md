@@ -38,6 +38,8 @@ EDA involved exploring the orders data to answer several key questions such as:
 The analysis results are presented/ summarized as follows:
 
 <img width="298" height="268" alt="order_status_dist" src="https://github.com/user-attachments/assets/f01dac74-1e24-4c59-98ce-03f2b03fb959" />
+<img width="836" height="490" alt="order_st_dist_data_pt" src="https://github.com/user-attachments/assets/b4098df7-c7d3-4733-92be-0a49ee648215" />
+
 
 
 1. Olist has a good On-Time Delivery (OTD) rate - 91.89% of the orders are delivered early, this is crucial for maintaining high seller ratings on marketplaces and shows the efficiency and optimization of the logistics. 1.34% orders are delivered on time and 6.77% are delivered late, outside the promised window.
