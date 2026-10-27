@@ -7,23 +7,29 @@
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Results/ Findings](#results-findings)
 - [Recommendations](#recommendations)
+---
 
 ### Project Overview
 This data analysis project aims to provide vital insights into some key performances of an e-commerce enabler and marketplace integrator department store called Olist in Brazil over the past year. By poring over and analyzing various aspects of the orders/ sales data, we seek to identify crucial business insights, make data-driven actionable recommendations to streamline certain processes and logistics, and finally gain a deeper understanding of the store's performance.
 
+---
 ### Data Sources
 Orders Data: The dataset used for this analysis is the Olist's 'olist_order_dataset.csv' file, containing information about each sale made by the store.
+
+---
 
 ### Tools
 - pandas for Exploratory Data Analysis (EDA)
 - matplotlib for visualization
 - seaborn for visualization
+---
 
 ### Data Cleaning/ Preparation
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection
 2. Checking and handling null/ missing values
 3. Data cleaning and formatting
+---
 
 ### Exploratory Data Analysis (EDA)
 EDA involved exploring the orders data to answer several key questions such as:
@@ -34,6 +40,7 @@ EDA involved exploring the orders data to answer several key questions such as:
 5. The monthly order volume trend. 
 6. What is the cancellation rate?
 7. What is the repeat purchase rate?
+---
 
 ### Results/ Findings
 The analysis results are presented/ summarized as follows:
@@ -53,12 +60,16 @@ The analysis results are presented/ summarized as follows:
 3. Olist has a cancellation rate of 0.63% which can be considered outstandingly low and highly acceptable. For B2B e-commerce platforms a cancellation rate of < 1.0% is healthy, it indicates strong supply chain integration and minimal catalog listing errors. For standard B2C e-commerce a cancellation rate of 2.0%- 8.0% is excellent, it signals robust inventory sync, low fraud rates, and high consumer trust. In Amazon Marketplace a cancellation rate of < 2.5% is considered best_in-class, far below the threshold where account suspension risk occurs.
 4. The repeat purchase rate is 0.00%. There are no customers who made more than one purchase.
 
+---
+
 ### Recommendations
 After an analysis of the Average Process Time, it has been found that the approval time of 0.43 days, i.e., about 10 hours is excellent. However, the time to carrier is a bit mixed. Nearly 3 days to hand an item to a courier is slow for retail. For a marketplace integrator like Olist, this reflects small merchants taking time to pack items, or the time spent shipping items to a central cross-docking hub before final dispatch.
 For a pure B2C buyer, 12.56 days is unacceptable today. Modern consumers expect delivery within 2 to 5 days. For a hybrid integrator managing independent cross-country sellers, this is decent and realistic, but needs optimization.
 So taking all the above into consideration some recommendations include:
 1. A focus on lowering the Time to Carrier by penalizing slow merchants, or incentivizing them to use a fulfillment service.
 2. A business solution where products are pre-stowed in a central partner warehouse to remove or mitigate the timeline constrained on account of third-party carriers and decentralized warehouses.
+
+---
 
 
 
