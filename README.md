@@ -45,18 +45,33 @@ EDA involved exploring the orders data to answer several key questions such as:
 ### Results/ Findings
 
 
-1. Olist has a good On-Time Delivery (OTD) rate - 91.89% of the orders are delivered early, this is crucial for maintaining high seller ratings on marketplaces and shows the efficiency and optimization of the logistics. 1.34% orders are delivered on time and 6.77% are delivered late, outside the promised window.
+  1. Olist has a good On-Time Delivery (OTD) rate - 91.89% of the orders are delivered early, this is crucial for maintaining high seller ratings on marketplaces and shows the efficiency and optimization of the logistics. 1.34% orders are delivered on time and 6.77% are delivered late, outside the promised window.
 
-2. The average delivery time is 12.56 days. However, this is highly sensitive to extreme outliers making it less reliable for customer promises. In this case the median value of 10.22 days is a more accurate indication of the days taken for an order to get delivered. 50% of orders take less than 10.22 days, and 50% take longer. This is what the customer typically experienced.
+  2. The average delivery time is 12.56 days. However, this is highly sensitive to extreme outliers making it less reliable for customer promises. In this case the median value of 10.22 days is a more accurate indication of the days taken for an order to get delivered. 50% of orders take less than 10.22 days, and 50% take longer. This is what the customer typically experienced.
+
+<p align="center">
+<img src="images/detailed_quantiles.png" alt="Delivery Time Quantiles" width="300">
+</p>
 
 
-3. Olist has a cancellation rate of 0.63% which can be considered outstandingly low and highly acceptable. For B2B e-commerce platforms a cancellation rate of < 1.0% is healthy, it indicates strong supply chain integration and minimal catalog listing errors. For standard B2C e-commerce a cancellation rate of 2.0%- 8.0% is excellent, it signals robust inventory sync, low fraud rates, and high consumer trust. In Amazon Marketplace a cancellation rate of < 2.5% is considered best_in-class, far below the threshold where account suspension risk occurs.
+  3. Olist has a cancellation rate of 0.63% which can be considered outstandingly low and highly acceptable. For B2B e-commerce platforms a cancellation rate of < 1.0% is healthy, it indicates strong supply chain integration and minimal catalog listing errors. For standard B2C e-commerce a cancellation rate of 2.0%- 8.0% is excellent, it signals robust inventory sync, low fraud rates, and high consumer trust. In Amazon Marketplace a cancellation rate of < 2.5% is considered best-in-class, far below the threshold where account suspension risk occurs.
 
-4. The repeat purchase rate is 0.00%. There are no customers who made more than one purchase.
+<p align="center">
+<img src="images/order_status_dist.png" alt="Order Status Distribution" width="250">
+</p>
+
+
+  4. The repeat purchase rate is 0.00%. There are no customers who made more than one purchase.
 
 ---
 
 ### Recommendations
+
+<p align="center">
+<img src="images/avg_process_time.png" alt="Average Process Time" width="230">
+</p>
+
+
 After an analysis of the Average Process Time, it has been found that the approval time of 0.43 days, i.e., about 10 hours is excellent. However, the time to carrier is a bit mixed. Nearly 3 days to hand an item to a courier is slow for retail. For a marketplace integrator like Olist, this reflects small merchants taking time to pack items, or the time spent shipping items to a central cross-docking hub before final dispatch.
 For a pure B2C buyer, 12.56 days is unacceptable today. Modern consumers expect delivery within 2 to 5 days. For a hybrid integrator managing independent cross-country sellers, this is decent and realistic, but needs optimization.
 So taking all the above into consideration some recommendations include:
