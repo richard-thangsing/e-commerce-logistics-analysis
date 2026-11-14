@@ -43,21 +43,15 @@ EDA involved exploring the orders data to answer several key questions such as:
 ---
 
 ### Results/ Findings
-The analysis results are presented/ summarized as follows:
-
-
-<img width="298" height="268" alt="order_status_dist" src="https://github.com/user-attachments/assets/f01dac74-1e24-4c59-98ce-03f2b03fb959" />
 
 
 1. Olist has a good On-Time Delivery (OTD) rate - 91.89% of the orders are delivered early, this is crucial for maintaining high seller ratings on marketplaces and shows the efficiency and optimization of the logistics. 1.34% orders are delivered on time and 6.77% are delivered late, outside the promised window.
+
 2. The average delivery time is 12.56 days. However, this is highly sensitive to extreme outliers making it less reliable for customer promises. In this case the median value of 10.22 days is a more accurate indication of the days taken for an order to get delivered. 50% of orders take less than 10.22 days, and 50% take longer. This is what the customer typically experienced.
 
 
-<img width="428" height="289" alt="detailed_quantiles" src="https://github.com/user-attachments/assets/e6ad14d1-9fe1-423f-bc57-495f65a2e2ea" />
-
-<img width="1214" height="578" alt="monthly_order_volm" src="https://github.com/user-attachments/assets/dc06ac16-316b-4fce-a8ff-014879ff2a7d" />
-
 3. Olist has a cancellation rate of 0.63% which can be considered outstandingly low and highly acceptable. For B2B e-commerce platforms a cancellation rate of < 1.0% is healthy, it indicates strong supply chain integration and minimal catalog listing errors. For standard B2C e-commerce a cancellation rate of 2.0%- 8.0% is excellent, it signals robust inventory sync, low fraud rates, and high consumer trust. In Amazon Marketplace a cancellation rate of < 2.5% is considered best_in-class, far below the threshold where account suspension risk occurs.
+
 4. The repeat purchase rate is 0.00%. There are no customers who made more than one purchase.
 
 ---
